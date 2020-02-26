@@ -1,0 +1,90 @@
+@media (min-width: 375px) {
+    header {
+        display: flex;
+        align-items: center;
+        padding: 0px 20px;
+        background-color: bisque;
+    }  
+
+    .desktop_logo {
+        display: none;
+    }
+
+    .login {
+        display: none;
+    }    
+
+    .ico_bag {
+        margin-left: auto;
+    }
+
+    #bag {
+        margin-left: 15px;
+    }
+
+    #navigation {
+        width: auto;
+        margin-left: 30px;
+        height: 1px;
+    }
+    
+    .navigation-toggle .menu_icon {
+        width: 35px;
+        height: 5px;
+        background-color: black;
+        margin: 6px 0;
+    }
+
+    .navigation-toggle.active {
+        width: 10px;
+        height: 10px;
+      
+        content: "";
+        position: absolute;
+        background: red;
+        left: 50%;
+        width: 20px;
+        height: 20px;
+        margin-left: -15%;
+        transform: rotate(45deg);
+    }
+
+    .x.active {
+        top: 0;
+        transform: rotate(135deg) translateX(20%);
+    }
+    
+    .y.active {
+       display: none;
+    }
+    
+    .z.active {
+        top: 0;
+      transform: rotate(45deg) translateX(-25%);
+    }
+    
+    #navigation .navigation-content {
+        display: none;
+    }
+    
+    #navigation .navigation-content.active {
+        display: block;
+    }
+    
+    .navigation-content a {
+        width: 100px;
+        display: block;
+    }
+}
+
+@media (min-width: 768px) {
+    body{
+        background-color: blue;
+    }
+}
+
+@media (min-width: 1024px) {
+    body{
+        background-color: purple;
+    }
+}
